@@ -51,3 +51,23 @@ console.log(space9)
 console.log(space10)
 console.log(space11)
 
+// create array of lines
+console.log('\n\n');
+
+space = [
+'   |   |   ',
+' x | o |   ',
+'   |   |   ',
+'-----------',
+'   |   |   ',
+' x | x |   ',
+'   |   |   ',
+'-----------',
+'   |   |   ',
+' o |   |   ',
+'   |   |   ',
+]
+
+for (let i = 0; i < 11; i++) {
+  console.log(space[i]);
+}
