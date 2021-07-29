@@ -33,16 +33,16 @@ while( age < 18 ){
   age++
 }
 
-console.log("You're an adult");
+console.log("You're an adult\n\n");
 
 
 
 let cards = ['Diamond', 'Spade', 'Club', 'Heart',]
 let currentCard = 'Club';
 
-while(currentCard != 'Spade');{
+while(currentCard != 'Spade'){
   console.log(currentCard);
-  currentCard = cards[Math.floor(Math.random()*4)]
+  currentCard = cards[Math.floor(Math.random()*4)];
 }
 
 console.log(currentCard);
