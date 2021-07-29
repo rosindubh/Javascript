@@ -1,13 +1,11 @@
 // phil welsby 26 july 2021
 // page to print a tic tac toe board
 
-console.log()
-console.log()
-console.log()
+console.log('\n\nusing   <.charAt(7).toUpperCase()>   to find 7th character in a string')
+
 console.log('All aroud the world'.charAt(7).toUpperCase());
-console.log()
-console.log()
-console.log()
+
+console.log('\n\n')
 
 x = '------------'
 y = '   |    |   '
@@ -18,14 +16,8 @@ console.log(x)
 console.log(y)
 console.log(x)
 console.log(y)
-console.log()
-console.log()
-console.log()
-console.log()
-console.log()
-console.log()
 
-
+console.log('\n\n')
 
 let space1 =  '   |   |   ';
 let space2 =  ' x | o |   ';
