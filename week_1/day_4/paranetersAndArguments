@@ -1,0 +1,12 @@
+#  phil welsby - 29 july 2021
+# difference between parameters and arguments
+
+parameters are like mini variables that exist inside the function
+arguments are passed in when u call the function
+
+const myfunction = (paraneter1, parameter2) => {
+  // code does something
+}
+
+// call function
+myFunction(argument1, argument2);
